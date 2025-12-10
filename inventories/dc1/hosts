@@ -1,0 +1,11 @@
+[all:children]
+dc1
+
+
+[dc1:children]
+nginx
+docker
+
+[nginx]
+
+[docker]
